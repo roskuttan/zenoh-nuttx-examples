@@ -1,0 +1,7 @@
+menu "zenoh-pico Nuttx Examples"
+    config CONFIG_ROS2_SUB
+    tristate "Zenoh-Pico ROS2 Subscriber example"
+        default n
+        ---help---
+        Enable the Zenoh-Pico ROS2 Subscriber example for NuttX     
+endmenu
